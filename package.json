@@ -1,0 +1,25 @@
+{
+  "name": "typescript-middleware",
+  "version": "0.1.0",
+  "description": "typescript auto compile connect-middleware.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "connect",
+    "middleware"
+  ],
+  "author": "Taketoshi Aono",
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^3.2.9",
+    "typescript.api": "^0.7.7",
+    "lodash": "^2.4.1",
+    "ejs": "^1.0.0"
+  },
+  "devDependencies": {
+    "connect": "^2.14.5"
+  }
+}
