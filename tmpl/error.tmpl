@@ -1,6 +1,6 @@
 (function() {
   var div = document.createElement('div');
-  div.innerHTML = '<p style="font-weight: bold;background: #333;padding:5px;color: #CCC;margin:0px;"><%- title %></p><pre style="color: red;font-family: mono-space;background: #EDEDED;border:1px solid #ccc;padding: 10px;white-space:pre-wrap"><%- file %>\n<%- error.replace(/'/g, "\\'").replace(/\n/g, '\\n') %></pre>';
+  div.innerHTML = '<p style="font-weight: bold;background: #333;padding:5px;color: #CCC;margin:0px;"><%- title %></p><pre style="margin:0px;padding:0px;color: red;font-family: mono-space;background: #EDEDED;border:1px solid #ccc;padding: 10px;white-space:pre-wrap"><%= file %>\n<%= error.replace(/'/g, "\\'").replace(/\n|\r\n|\r/g, '\\n') %></pre>';
   function insert(){document.body.insertBefore(div, document.body.firstChild)}
   if (document.attachEvent) window.attachEvent('onload', insert);
   if (document.addEventListener) window.addEventListener('load', insert);
