@@ -33,7 +33,8 @@ app.use('typescript', tscMiddleware({
 
 **Server**
 
-<pre><code>var connect = require('connect');
+```javascript
+var connect = require('connect');
 var app = connect();
 app.use('typescript', tscMiddleware({
   basePath : '../ts/src',
@@ -48,23 +49,28 @@ app.use('typescript', tscMiddleware({
   updateAll: true
 })
 .use(connect.static('../'))
-.listen(8080);</code></pre>
+.listen(8080);
+```
 
 **HTML**
 
-<pre><code><!doctype html>
+```html
+<!doctype html>
 <html>
 <head>
   <script type="text/javascript" src="//localhost:8080/typescript?path=main/foo/bar/main.ts"></script>
 </head>
 <body>
 </body>
-</html></code></pre>
+</html>
+```
 
 
 **Response**
 
-<pre><code>!function() {
+```javascript
+!function() {
   document.writeln('<script type="text/javascript" src="/js/conf/requirejs.config.js"><' + '/script>');
   document.writeln('<script type="text/javascript" src="/js/node_modules/requirejs/require.js" data-main="/js/output/foo/bar/main.js"><' + '/script>');
-}();</code></pre>
+}();
+```
