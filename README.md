@@ -8,7 +8,8 @@ The on the fly typescript compile server for express/connect.
 
 ## Usage
 
-<pre><code>var tscMiddleware = require('typescript-middleware');
+```javascript
+var tscMiddleware = require('typescript-middleware');
 var connect = require('connect');
 var app = connect();
 app.use('typescript', tscMiddleware({
@@ -26,7 +27,8 @@ app.use('typescript', tscMiddleware({
   requirejsConfigPath: 'js/requirejs.config.js', // The path to the requirejs config file.
   urlRoot: './', // The url root path.
   updateAll: true // [OPTIONAL] [true/false] Whether record all typescript file mtime before server running or not.
-}));</code></pre>
+}));
+```
 
 
 ## Example
