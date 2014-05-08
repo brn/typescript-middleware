@@ -1,6 +1,6 @@
 {
   "name": "typescript-middleware",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "typescript auto compile connect-middleware.",
   "main": "index.js",
   "scripts": {
