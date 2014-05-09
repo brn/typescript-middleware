@@ -15,6 +15,7 @@ var app = connect();
 app.use('typescript', tscMiddleware({
   outDir: 'js/out', // The output directory of compilation result.
   sourceMap: true, // [OPTIONAL] Generate sourceMap file
+  sourceRoot: '', // [OPTIONAL] Source root path.
   mapRoot: './ts', // [OPTIONAL] SourceMap root directory
   basePath: './ts', // Typescript root directory
   removeComments: false, // [OPTIONAL] [true/false] Save comments on generated source.
