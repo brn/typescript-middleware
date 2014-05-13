@@ -4,4 +4,4 @@
  */
 
 
-module.exports = require('./lib/responder');
+module.exports = require('./lib/middleware');
