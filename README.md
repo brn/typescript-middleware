@@ -201,7 +201,7 @@ app.use('typescript', tscMiddleware({
 ```javascript
 var connect = require('connect');
 var app = connect();
-app.use('typescript', tscMiddleware({
+app.use(tscMiddleware({
   basePath : '../ts/src',
   sourceMap: true,
   target: 'es3',
