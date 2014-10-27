@@ -1,1 +1,1 @@
-{"version":3,"file":"deps1.js","sourceRoot":"","sources":["../ts/deps1.ts"],"names":["Deps1","Deps1.constructor"],"mappings":"AAAA;IAAA;QAAAA;QAAaC,CAACA;AAAAD,QAADA,aAACA;IAADA,CAACA,IAAA;;;IAEd,YAAe;GAAA"}
+{"version":3,"file":"deps1.js","sourceRoot":"","sources":["../ts/deps1.ts"],"names":["Deps1","Deps1.constructor"],"mappings":";IAAA,IAAM,KAAK;QAAXA,SAAMA,KAAKA;QAAEC,CAACA;QAADD,YAACA;IAADA,CAACA,AAAd,IAAc;IAEC,AAAf,OAAS,KAAK,CAAC"}

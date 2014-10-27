@@ -1,1 +1,1 @@
-{"version":3,"file":"test.js","sourceRoot":"","sources":["../ts/test.ts"],"names":["main"],"mappings":"AAAA;IAIA,SAAS,IAAI;QACXA,IAAIA,KAAKA,CAACA,CAACA;QACXA,IAAIA,KAAKA,CAACA,CAACA;IACbA,CAACA;;IAED,IAAI,CAAC,CAAC;GAAC"}
+{"version":3,"file":"test.js","sourceRoot":"","sources":["../ts/test.ts"],"names":["main"],"mappings":"iFACO,KAAK,EACL,KAAK;IAEZ,SAAS,IAAI;QACXA,IAAIA,KAAKA,EAAEA,CAACA;QACZA,IAAIA,KAAKA,EAAEA,CAACA;IACdA,CAACA;IAED,IAAI,EAAE,CAAC"}
