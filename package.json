@@ -1,14 +1,14 @@
 {
   "name": "typescript-middleware",
-  "version": "0.3.5",
+  "version": "0.4.0",
   "description": "typescript auto compile connect-middleware.",
   "main": "index.js",
   "scripts": {
     "test": "cd test && node test.js"
   },
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/brn/typescript-middleware.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brn/typescript-middleware.git"
   },
   "keywords": [
     "typescript",
@@ -22,7 +22,7 @@
     "lodash": "^2.4.1",
     "ejs": "^1.0.0",
     "node-uuid": "^1.4.1",
-    "mkdirp": "^0.4.0"
+    "mkdirp": "^0.4.2"
   },
   "devDependencies": {
     "connect": "^2.14.5"
