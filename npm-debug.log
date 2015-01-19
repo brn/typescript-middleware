@@ -1,0 +1,28 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/a12360/.nodebrew/current/bin/node',
+1 verbose cli   '/Users/a12360/.nodebrew/current/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@2.0.0
+3 info using node@v0.11.14
+4 verbose node symlink /Users/a12360/.nodebrew/current/bin/node
+5 verbose publish [ '.' ]
+6 verbose stack Error: Invalid version: "0.5"
+6 verbose stack     at Object.module.exports.fixVersionField (/Users/a12360/.nodebrew/node/v0.11.14/lib/node_modules/npm/node_modules/normalize-package-data/lib/fixer.js:183:13)
+6 verbose stack     at /Users/a12360/.nodebrew/node/v0.11.14/lib/node_modules/npm/node_modules/normalize-package-data/lib/normalize.js:30:38
+6 verbose stack     at Array.forEach (native)
+6 verbose stack     at normalize (/Users/a12360/.nodebrew/node/v0.11.14/lib/node_modules/npm/node_modules/normalize-package-data/lib/normalize.js:29:15)
+6 verbose stack     at final (/Users/a12360/.nodebrew/node/v0.11.14/lib/node_modules/npm/node_modules/read-package-json/read-json.js:342:33)
+6 verbose stack     at then (/Users/a12360/.nodebrew/node/v0.11.14/lib/node_modules/npm/node_modules/read-package-json/read-json.js:126:33)
+6 verbose stack     at /Users/a12360/.nodebrew/node/v0.11.14/lib/node_modules/npm/node_modules/read-package-json/read-json.js:331:40
+6 verbose stack     at evalmachine.<anonymous>:295:14
+6 verbose stack     at /Users/a12360/.nodebrew/node/v0.11.14/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:102:5
+6 verbose stack     at Object.oncomplete (evalmachine.<anonymous>:93:15)
+7 verbose cwd /Users/a12360/github/npm-modules/typescript-middleware
+8 error Darwin 13.4.0
+9 error argv "/Users/a12360/.nodebrew/current/bin/node" "/Users/a12360/.nodebrew/current/bin/npm" "publish"
+10 error node v0.11.14
+11 error npm  v2.0.0
+12 error Invalid version: "0.5"
+13 error If you need help, you may report this error at:
+13 error     <http://github.com/npm/npm/issues>
+14 verbose exit [ 1, true ]
