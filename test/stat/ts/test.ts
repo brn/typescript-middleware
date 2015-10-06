@@ -1,6 +1,6 @@
 
-import Deps1 = require('./deps1');
-import Deps2 = require('./deps2');
+import {Deps1} from './deps1';
+import {Deps2} from './deps2';
 
 function main() {
   new Deps1();

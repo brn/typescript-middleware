@@ -4,6 +4,6 @@ define(["require", "exports"], function (require, exports) {
         }
         return Deps1;
     })();
-    return Deps1;
+    exports.Deps1 = Deps1;
 });
 //# sourceMappingURL=deps1.js.map

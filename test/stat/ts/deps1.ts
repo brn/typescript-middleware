@@ -1,3 +1,1 @@
-class Deps1 {}
-
-export = Deps1;
+export class Deps1 {}
