@@ -1,6 +1,14 @@
 !function() {
     <%if (requirejsConfig) {%>
-         document.writeln('<script type="text/javascript" src="<%- requirejsConfig %>"><' + '/script>');
+    document.writeln('<script type="text/javascript" src="<%- requirejsConfig %>"><' + '/script>');
     <%}%>
+    <%if (requirejs) {%>
     document.writeln('<script type="text/javascript" src="<%- requirejs %>" data-main="/<%- main %>"><' + '/script>');
+    <%}%>
+    <%if (systemjs) {%>
+    document.writeln('<script type="text/javascript" src="<%- systemjs %>"><' + '/script>');
+    <%}%>
+    <%if (systemjsConfig) {%>
+    document.writeln('<script type="text/javascript" src="<%- systemjsConfig %>"><' + '/script>');
+    <%}%>
 }();
