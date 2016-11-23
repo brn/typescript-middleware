@@ -18,11 +18,11 @@
   "author": "Taketoshi Aono",
   "license": "MIT",
   "dependencies": {
+    "ejs": "^1.0.0",
     "glob": "^3.2.9",
     "lodash": "^2.4.1",
-    "ejs": "^1.0.0",
-    "node-uuid": "^1.4.1",
-    "mkdirp": "^0.4.2"
+    "mkdirp": "^0.4.2",
+    "uuid": "^3.0.0"
   },
   "devDependencies": {
     "connect": "^2.14.5"
