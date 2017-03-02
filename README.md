@@ -27,7 +27,7 @@ app.use('typescript', tscMiddleware({
   requirejsPath: 'js/libs/requirejs/require.js', // The path to the requirejs
   requirejsConfigPath: 'js/requirejs.config.js', // The path to the requirejs config file.
   urlRoot: './', // The url root path.
-  updateAll: true // [OPTIONAL] [true/false] Whether record all typescript file mtime before server running or not.
+  updateAll: true, // [OPTIONAL] [true/false] Whether record all typescript file mtime before server running or not.
   respond: true // [OPTIONAL] [true/false] Respond compilation result as requirejs main.
 }));
 ```
